@@ -3,10 +3,9 @@ title: "eds-212-day-5-1"
 format: 
   html:
     code-fold: true
-    code-summary: "Show me the code!"
+    code-summary: "show me the code"
 editor: visual
 execute: 
-  echo: false
   warning: false
 ---
 
