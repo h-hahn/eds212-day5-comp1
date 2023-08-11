@@ -42,3 +42,20 @@ ggplot(starwars, aes(x = height, y = mass)) +
   labs(title = "Height vs Mass", x = "Height", y = "Mass") +
   theme_light()
 ```
+
+## Calculate summary statistics
+
+Use mean() function to find means.
+
+Use sd() function to find standard deviations.
+
+```{r}
+mean_height <- mean(starwars$height, na.rm = TRUE)
+
+```
+
+Find and store standard deviation of character heights
+
+```{r}
+sd_height <- sd(starwars$height, na.rm = TRUE)
+```
